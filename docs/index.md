@@ -1,10 +1,10 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+
 layout: home
 
 hero:
-  name: "deNodes Hub"
-  text: "Unleashing Potential in Blockchain Tech"
+  name: <span class='text-gradient'>deNodes Hub</span>
+  text: Unleashing Potential in Blockchain Tech
   tagline: A comprehensive educational platform that provides research & guideline on blockchain and web3 technologies.
   image:
     src: https://denodes.xyz/assets/HubImg-ozDE0o6T.png
@@ -27,6 +27,5 @@ features:
   - title: Technical Guides 
     details: Our materials cover a wide range of new blockchain projects, helping you enhance your network participation and node operator skills.
     icon: 🛠️
-
 
 ---

@@ -7,3 +7,19 @@
 /* body {
     background-color: black;
 } */
+
+.bg-gradient {
+    background: rgb(81,47,231);
+    background: -moz-linear-gradient(67deg, rgba(81,47,231,1) 0%, rgba(48,255,199,1) 100%);
+    background: -webkit-linear-gradient(67deg, rgba(81,47,231,1) 0%, rgba(48,255,199,1) 100%);
+    background: linear-gradient(67deg, rgba(81,47,231,1) 0%, rgba(48,255,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#512fe7",endColorstr="#30ffc7",GradientType=1);
+}
+
+.text-gradient {
+    display: inline-block;
+    background: linear-gradient(67deg, rgba(81, 47, 231, 1) 0%, rgba(48, 255, 199, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
