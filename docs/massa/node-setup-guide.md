@@ -60,11 +60,11 @@ massa_client buy_rolls Address 1 0
 ## Registering the node in Discord
 To register a node in the Incentivized program, you need to go to the #testnet-rewards-registration channel and click on the "👍🏻" emoji. 
 
-![An image](/massa-node-setup-discord.webp)
+![An image](/massa-node-setup-discord.webp){data-zoomable}
 
 Next, we receive a private message from MassaBot, send in reply the IP address of your server. 
 
-![An image](/massa-node-setup-discord-another.webp)
+![An image](/massa-node-setup-discord-another.webp){data-zoomable}
 
 The output of the command needs to be sent back to the bot in Discord.
 
@@ -105,7 +105,6 @@ rm /etc/systemd/system/massa-node.service
 rm -rf $HOME/massa
 ```
 
-Powered by [deNodes](https://twitter.com/_denodes)
 
 
 

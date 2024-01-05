@@ -15,5 +15,3 @@ Welcome to this research, where you will find detailed information about the Fle
 * [Discord](https://discord.com/invite/fleek)
 * [Blog](https://blog.fleek.network/)
 * [Docs](https://docs.fleek.network/docs/)
-
-Powered by [deNodes](https://twitter.com/_denodes)

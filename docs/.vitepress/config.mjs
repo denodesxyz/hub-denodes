@@ -2,19 +2,25 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "deNodes Hub",
-
-  description: "deNodes Hub description",
+  description: "A comprehensive educational platform that provides research & guideline on blockchain and web3 technologies.",
+  lang: 'en-US',
+  sitemap: {
+    hostname: 'https://hub.denodes.xyz'
+  },
+  ignoreDeadLinks: true,
 
   themeConfig: {
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        detailedView: true,
+      },
     },
-
     // Using Google Analytics
     head: [
       [
         'script',
-        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID' }
+        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID', }
       ],
       [
         'script',
@@ -23,13 +29,17 @@ export default defineConfig({
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'TAG_ID');`
+      ],
+      // Favicon
+      [
+        [ 'link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
       ]
     ],
 
     logo: '/Logo.svg',
 
     nav: [
-      { text: 'Homepage', link: 'https://denodes.xyz' },
+      { text: 'Homepage', link: 'https://hub.denodes.xyz' },
     ],
 
 
@@ -121,11 +131,14 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/denodesxyz' },
       { icon: 'x', link: 'https://x.com/_denodes' },
-      { icon: { svg: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
-      style="fill:#000000;">
-      <g fill="#8a8a8a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c12.703,0 23,10.297 23,23c0,12.703 -10.297,23 -23,23c-12.703,0 -23,-10.297 -23,-23c0,-12.703 10.297,-23 23,-23zM32.934,34.375c0.423,-1.298 2.405,-14.234 2.65,-16.783c0.074,-0.772 -0.17,-1.285 -0.648,-1.514c-0.578,-0.278 -1.434,-0.139 -2.427,0.219c-1.362,0.491 -18.774,7.884 -19.78,8.312c-0.954,0.405 -1.856,0.847 -1.856,1.487c0,0.45 0.267,0.703 1.003,0.966c0.766,0.273 2.695,0.858 3.834,1.172c1.097,0.303 2.346,0.04 3.046,-0.395c0.742,-0.461 9.305,-6.191 9.92,-6.693c0.614,-0.502 1.104,0.141 0.602,0.644c-0.502,0.502 -6.38,6.207 -7.155,6.997c-0.941,0.959 -0.273,1.953 0.358,2.351c0.721,0.454 5.906,3.932 6.687,4.49c0.781,0.558 1.573,0.811 2.298,0.811c0.725,0 1.107,-0.955 1.468,-2.064z"></path></g></g>
+      { icon: { svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12.43 8.85893C11.2628 9.3444 8.93014 10.3492 5.43189 11.8733C4.86383 12.0992 4.56626 12.3202 4.53917 12.5363C4.49339 12.9015 4.95071 13.0453 5.57347 13.2411C5.65818 13.2678 5.74595 13.2954 5.83594 13.3246C6.44864 13.5238 7.27283 13.7568 7.70129 13.766C8.08994 13.7744 8.52373 13.6142 9.00264 13.2853C12.2712 11.079 13.9584 9.96381 14.0643 9.93977C14.139 9.92281 14.2426 9.90148 14.3128 9.96385C14.3829 10.0262 14.376 10.1443 14.3686 10.176C14.3233 10.3691 12.5281 12.0381 11.5991 12.9018C11.3095 13.171 11.1041 13.362 11.0621 13.4056C10.968 13.5033 10.8721 13.5958 10.78 13.6846C10.2108 14.2333 9.78391 14.6448 10.8036 15.3168C11.2936 15.6397 11.6858 15.9067 12.077 16.1731C12.5042 16.4641 12.9303 16.7543 13.4816 17.1157C13.6221 17.2077 13.7562 17.3034 13.8869 17.3965C14.3841 17.751 14.8307 18.0694 15.3826 18.0186C15.7032 17.9891 16.0345 17.6876 16.2027 16.7884C16.6002 14.6631 17.3816 10.0585 17.5622 8.16097C17.578 7.99473 17.5581 7.78197 17.5422 7.68857C17.5262 7.59518 17.4928 7.46211 17.3714 7.3636C17.2276 7.24694 17.0056 7.22234 16.9064 7.22408C16.455 7.23203 15.7626 7.47282 12.43 8.85893Z" fill="currentColor"></path>
       </svg>`}, link: "https://t.me/deNodes" },
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/denodes' }
-    ]
+    ],
+
+    footer: {
+      copyright: 'Copyright 2024 © All Rights Reserved by deNodes'
+    }
   }
 })

@@ -187,5 +187,3 @@ sudo systemctl daemon-reload
 sudo rm /usr/local/bin/namada*
 sudo rm -rf $HOME/.local/share/namada
 ```
-
-Powered by [deNodes](https://twitter.com/_denodes)

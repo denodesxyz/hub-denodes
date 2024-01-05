@@ -14,5 +14,3 @@ We recommend the following minimum hardware requirements for running the Avail N
 
 ## Setting up a Avail Node
 :gear: Under maintenance
-
-Powered by [deNodes](https://twitter.com/_denodes)

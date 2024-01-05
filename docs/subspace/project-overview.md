@@ -32,7 +32,7 @@ The team is actively engaged in implementing technical upgrades and releasing ne
 ## Backers
 Subspace Labs, the developer of the Subspace Network, has raised over $38M in a few financing rounds, which includes a special grant for research and development (R&D). The funding round was led by Pantera Capital and attracted participation from well-known investors such as Coinbase Ventures, [Crypto.com](http://crypto.com/), Alameda Research, ConsenSys Mesh, and others.
 
-<a style="border: 1px solid rgba(43,46,57,1.00); padding: 10px; width: 100%; text-align: left; display: flex; align-items: center;" href="https://blog.subspace.network/subspace-labs-raises-32-9-million-to-bring-internet-scale-to-web3-b0fdd4dffe7e">
+<a class="external-link" href="https://blog.subspace.network/subspace-labs-raises-32-9-million-to-bring-internet-scale-to-web3-b0fdd4dffe7e">
     <div style="display: flex; flex-direction: column; align-items: left; margin-left: 1rem;">
         <p>Subspace Labs Raises $32.9 Million to Bring Internet Scale to Web3</p>
         <p style="margin-top: -1rem;">blog.subspace.network</p>
@@ -46,5 +46,3 @@ Subspace Labs, the developer of the Subspace Network, has raised over $38M in a 
 * [Discord](https://discord.com/invite/subspace-network)
 * [Blog](https://blog.subspace.network/)
 * [Github](https://github.com/subspace)
-
-Powered by [deNodes](https://twitter.com/_denodes)

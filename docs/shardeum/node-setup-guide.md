@@ -15,5 +15,4 @@ We recommend the following minimum hardware requirements for running the Shardeu
 ## Setting up a Shardeum Node
 :gear: Under maintenance
 
-Powered by [deNodes](https://twitter.com/_denodes)
 

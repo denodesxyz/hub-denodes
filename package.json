@@ -6,6 +6,8 @@
   },
   "dependencies": {
     "@mdit-vue/plugin-toc": "^2.0.0",
-    "vitepress": "^1.0.0-rc.33"
+    "medium-zoom": "^1.1.0",
+    "vitepress": "^1.0.0-rc.33",
+    "vue": "^3.4.4"
   }
 }

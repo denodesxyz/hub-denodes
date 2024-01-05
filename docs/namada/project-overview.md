@@ -19,7 +19,7 @@ The [Namada](https://namada.net/) protocol stands out from other blockchain proj
 
 In addition to its privacy-focused approach, Namada Network is also focused on scalability. The network achieves this through the use of innovative techniques such as sharding and off-chain computation, which enable it to handle high volumes of transactions without sacrificing security or decentralization.
 
-<a style="border: 1px solid rgba(43,46,57,1.00); padding: 10px; width: 100%; text-align: left; display: flex; align-items: center;" href="https://namada.net/blog/what-is-namada">
+<a class="external-link" href="https://namada.net/blog/what-is-namada">
     <div style="width: 10%;">
         <img src="https://namada.net/assets/apple-touch-icon.png" alt="namada-icon" style="" />
     </div>
@@ -39,7 +39,7 @@ To incentivize the adoption of shielded transfers and privacy features, Namada o
 
 One of Namada's significant contributions is the concept of shared privacy. Through private bridges, Namada can connect diverse privacy chains, creating a more extensive multichain privacy set that enhances privacy guarantees for all users. Private bridges also improve the user experience by eliminating the need to unshield assets when moving between chains.
 
-![An image](/namada-project-overview-diagram.webp)
+![An image](/namada-project-overview-diagram.webp){data-zoomable}
 
 ## Backers & Team
 
@@ -49,8 +49,8 @@ This substantial financial support came from a diverse group of investors, inclu
 
 The latest round of fundraising was co-led by returning fund CMCC Global and Electric Capital, which has supported [Anoma](http://anoma.net/) in all previous rounds.
 
-<a style="border: 1px solid rgba(43,46,57,1.00); padding: 10px; width: 100%; height: 100%; text-align: left; display: flex; align-items: center;" href="https://namada.net/blog/what-is-namada">
-    <div style="width: 9%; height: 50%; background-color: rgba(34,46,57,1.00);  border-radius: 50%;">
+<a class="external-link" href="https://namada.net/blog/what-is-namada">
+    <div style="width: 9%; height: 50%; background-color: rgba(34,46,57,1.00); border-radius: 50%;">
         <img src="https://anoma.foundation/favicon.ico" alt="namada-icon" style="width: 100%;" />
     </div>
     <div style="display: flex; flex-direction: column; align-items: left; margin-left: 1rem;">
@@ -65,5 +65,3 @@ The latest round of fundraising was co-led by returning fund CMCC Global and Ele
 * [Discord](https://discord.com/invite/namada)
 * [Github](https://github.com/anoma/namada)
 * [Documentation](https://docs.namada.net/)
-
-Powered by [deNodes](https://twitter.com/_denodes)

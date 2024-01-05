@@ -69,10 +69,10 @@ $request <dym-address>
 ```
 
 For Celestia and Avail network tokens you may use the [celestia-faucet](https://discord.com/channels/956961633165529098/1128048548999610451) or [avail-faucet](https://discord.com/channels/956961633165529098/1144240033650458685) respectively:
-```celestia
+```Celestia
 $request <celestia-address>
 ```
-```avail
+```Avail
 /deposit <avail-address>
 ```
 
@@ -101,7 +101,7 @@ roller run
     During the <span style="background-color: rgba(43,46,57,1.00); color: white; padding: 2.5px; border-radius: .5rem">Run</span> process a RollApp with an IBC connection to the Dymension Hub is started. A status table will appear with information about the RollApp and IBC relayer. Developers should see an output with useful information such as this:
 </p>
 
-![An image](/dymension-running-roller.webp)
+![An image](/dymension-running-roller.webp){data-zoomable}
 
 If you close the terminal, the process execution will be stopped. Therefore, it is recommended to use the following method. It only works on Linux with systemd.
 
@@ -111,41 +111,29 @@ roller services load
 ```
 
 Enable services:
-```bash
-# Celestia
-
+```Celestia
 sudo systemctl enable da-light-client sequencer relayer
 ```
 
-```bash
-# Avail
-
+```Avail
 sudo systemctl enable sequencer relayer
 ```
 
 Start the services:
-```bash
-# Celestia
-
+```Celestia
 sudo systemctl start da-light-client sequencer relayer
 ```
 
-```bash
-# Avail
-
+```Avail
 sudo systemctl start sequencer relayer
 ```
 
 Next, check the status of running services:
-```bash
-# Celestia
-
+```Celestia
 sudo systemctl status da-light-client sequencer relayer
 ```
 
-```bash
-# Avail
-
+```Avail
 sudo systemctl status sequencer relayer
 ```
 
@@ -297,14 +285,10 @@ curl -L https://dymensionxyz.github.io/roller/install.sh | bash
 ```
 
 Stop the Roller services:
-```bash
-# Celestia
-
+```Celestia
 sudo systemctl stop relayer sequencer da-light-client
 ```
-```bash
-# Avail
-
+```Avail
 sudo systemctl stop relayer sequencer
 ```
 
@@ -314,16 +298,11 @@ roller migrate
 ```
 
 Start the Roller services:
-```bash
-# Celestia
-
+```Celestia
 sudo systemctl start da-light-client sequencer relayer
 ```
-```bash
-# Avail
-
+```Avail
 sudo systemctl stop sequencer relayer
 ```
 
-Powered by [deNodes](https://twitter.com/_denodes)
 

@@ -28,7 +28,7 @@ By year eight of the mainnet, the decentralization program will conclude, markin
 ## Team and Backers
 The driving force behind Massa Network is a team of visionaries and seasoned professionals. Founded by Sébastien, Damir, and Adrien in 2017, Massa's journey began as a research endeavor focused on consensus protocols. 
 
-![An image](/massa-project-overview-team.webp)
+![An image](/massa-project-overview-team.webp){data-zoomable}
 
 This team's background includes significant contributions to the blockchain space, including the development of the Inter-Blockchain Communication (IBC) protocol and leadership roles at Tendermint.
 
@@ -42,5 +42,3 @@ In conclusion, Massa Network emerges as a trailblazing project that challenges t
 * [Github](https://github.com/massalabs/massa)
 * [Medium](https://massalabs.medium.com/)
 * [Docs](https://docs.massa.net/docs/build/home)
-
-Powered by [deNodes](https://twitter.com/_denodes)

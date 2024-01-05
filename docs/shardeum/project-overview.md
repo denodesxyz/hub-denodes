@@ -39,7 +39,7 @@ Although Shardeum was started in early 2022, Shardus, the protocol-level technol
 * **Q4 2023** - Mainnet
 * **Q1 2024** - Token Launch
 
-<a style="border: 1px solid rgba(43,46,57,1.00); padding: 10px; width: 100%; text-align: left; display: flex; align-items: center;" href="https://namada.net/blog/what-is-namada">
+<a class="external-link" href="https://namada.net/blog/what-is-namada">
     <div style="width: 10%; padding-left: 10px;">
         <img src="https://www.notion.so/front-static/logo-ios.png" alt="notion-icon" style="width: 65%; border-radius: 10%;" />
     </div>
@@ -66,5 +66,4 @@ The founding members of Shardeum are Nischal Shetty and Omar Syed. Shardeum team
 * [Github](https://github.com/shardeum/)
 * [Litepaper](https://shardeum.org/Shardeum-Litepaper.pdf)
 
-Powered by [deNodes](https://twitter.com/_denodes)
 

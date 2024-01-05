@@ -13,7 +13,7 @@ This unique feature sets Dymension apart in terms of agility and adaptability in
 
 Dymension's RollApps will utilize the [RollApp development kit](https://github.com/dymensionxyz/dymension-rdk) (RDK), which is built upon the Cosmos Software development kit (SDK).
 
-<a style="border: 1px solid rgba(43,46,57,1.00); padding: 10px; width: 100%; text-align: left; display: flex; align-items: center;" href="https://namada.net/blog/what-is-namada">
+<a class="external-link" href="https://namada.net/blog/what-is-namada">
     <div style="display: flex; flex-direction: column; align-items: left; margin-left: 1rem;">
         <p>The Path Forward — Revisited and Updated</p>
         <p style="margin-top: -1rem;">medium.com</p>
@@ -71,4 +71,3 @@ Here are official resources related to the [Dymension](https://dymension.xyz/) t
 * [Github](https://github.com/dymensionxyz)
 * [Docs](https://docs.dymension.xyz/)
 
-Powered by [deNodes](https://twitter.com/_denodes)

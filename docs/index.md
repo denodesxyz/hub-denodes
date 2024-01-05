@@ -2,12 +2,23 @@
 
 layout: home
 
+title: deNodes
+description: A comprehensive educational platform that provides research & guideline on blockchain and web3 technologies.
+
+head:
+  - - meta
+    - name: title
+      content: deNodes
+  - - meta
+    - name: description
+    - content: A comprehensive educational platform that provides research & guideline on blockchain and web3 technologies.
+
 hero:
-  name: <span class='text-gradient'>deNodes Hub</span>
+  name: deNodes Hub
   text: Unleashing Potential in Blockchain Tech
   tagline: A comprehensive educational platform that provides research & guideline on blockchain and web3 technologies.
   image:
-    src: https://denodes.xyz/assets/HubImg-ozDE0o6T.png
+    src: landing-hero.png
     alt: deNodes
   actions:
     - theme: brand
@@ -21,11 +32,14 @@ features:
   - title: Open-Source 
     details: At the deNodes Hub, we embrace open-source principles, making it easy for blockchain enthusiasts to contribute to our projects.
     icon: 🌍
+    link: https://github.com/denodesxyz/denodes-hub
   - title: Education & Research 
     details: We curate and analyze blockchain projects, offering valuable insights to help educate and enhance your understanding of this new technology.
     icon: 📒
+    link: /welcome/denodes-team
   - title: Technical Guides 
     details: Our materials cover a wide range of new blockchain projects, helping you enhance your network participation and node operator skills.
     icon: 🛠️
+    link: /namada/node-setup-guide/
 
 ---

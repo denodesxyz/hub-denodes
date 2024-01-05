@@ -175,5 +175,3 @@ dymd tx staking create-validator \
     --website="" \
     --details=""
 ```
-
-Powered by [deNodes](https://twitter.com/_denodes)

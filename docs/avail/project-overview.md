@@ -47,6 +47,8 @@ The Avail project was launched in late 2020 by co-founder Anurag Arjun within Po
 * [Anurag Arjun](https://twitter.com/anuragarjun), formerly a co-Founder and Chief Product Officer at [Polygon](https://iq.wiki/wiki/polygon), the leading Ethereum scaling solution. Alongside Jaynti Kanani, Sandeep Nailwal, and Mihailo Bjelic, Arjun played a key role in Polygon's growth from $26 million in market capitalization in 2019 to over $14 billion in 2021.
 
 ![An image](/avail-project-overview-twitter-post.png)
+<!-- <TwitterPost /> -->
+
 
 ## Resources
 * [Website](https://www.availproject.org/)
@@ -56,6 +58,6 @@ The Avail project was launched in late 2020 by co-founder Anurag Arjun within Po
 * [Github](https://github.com/availproject/avail)
 * [Docs](https://availproject.github.io/)
 
-Powered by [deNodes](https://twitter.com/_denodes)
+
 
 

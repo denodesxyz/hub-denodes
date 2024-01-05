@@ -11,5 +11,5 @@ deNodes Hub: Namada
 ## Table of Contents 
 * [Project Overview](http://hub.denodes.xyz/namada/project-overview)
 * [Node Setup Guide](http://hub.denodes.xyz/namada/node-setup-guide)
-    * [Node Setup Guide (Russian)](http://hub.denodes.xyz/namada/node-setup-guide-russian)
+    * [Node Setup Guide (Russian)](http://hub.denodes.xyz/namada/node-setup-guide/node-setup-guide-russian)
 * [FAQ: Most Frequently Asked Questions](http://hub.denodes.xyz/namada/faq)
