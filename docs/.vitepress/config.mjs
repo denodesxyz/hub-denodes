@@ -39,7 +39,7 @@ export default defineConfig({
     logo: '/Logo.svg',
 
     nav: [
-      { text: 'Homepage', link: 'https://hub.denodes.xyz' },
+      { text: 'Website', link: 'https://denodes.xyz' },
     ],
 
 
