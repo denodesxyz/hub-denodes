@@ -28,33 +28,33 @@ During the installation process, several parameters will be requested, the most 
 
 * For the first question, enter `Y`:
 
-![An image](/subspace-node-setup-console1.png){data-zoomable}
+![An image](/subspace-node-setup-console1.png)
 
 * Your subspace wallet address:
 
 Enter the address that can be taken [here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-0.gemini-3e.subspace.network%2Fws#/accounts), or install recommended wallet [Subwallet](https://docs.subspace.network/docs/protocol/wallets/subwallet).
 
-![An image](/subspace-node-setup-console2.png){data-zoomable}
+![An image](/subspace-node-setup-console2.png)
 
 * Enter a unique node name:
 
-![An image](/subspace-node-setup-console3.png){data-zoomable}
+![An image](/subspace-node-setup-console3.png)
 
 * Specify the paths for storing the plot and the node data (you can leave the default values):
 
-![An image](/subspace-node-setup-console4.png){data-zoomable}
+![An image](/subspace-node-setup-console4.png)
 
 * Specify the size of the plot:
 
-![An image](/subspace-node-setup-console5.png){data-zoomable}
+![An image](/subspace-node-setup-console5.png)
 
 * Leave the default value when selecting the chain:
 
-![An image](/subspace-node-setup-console6.png){data-zoomable}
+![An image](/subspace-node-setup-console6.png)
 
 * Installation successfully completed:
 
-![An image](/subspace-node-setup-console7.png){data-zoomable}
+![An image](/subspace-node-setup-console7.png)
 
 ## Node Monitoring
 

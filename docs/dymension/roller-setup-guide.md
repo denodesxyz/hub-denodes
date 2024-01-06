@@ -101,7 +101,7 @@ roller run
     During the <span style="background-color: rgba(43,46,57,1.00); color: white; padding: 2.5px; border-radius: .5rem">Run</span> process a RollApp with an IBC connection to the Dymension Hub is started. A status table will appear with information about the RollApp and IBC relayer. Developers should see an output with useful information such as this:
 </p>
 
-![An image](/dymension-running-roller.webp){data-zoomable}
+![An image](/dymension-running-roller.webp)
 
 If you close the terminal, the process execution will be stopped. Therefore, it is recommended to use the following method. It only works on Linux with systemd.
 

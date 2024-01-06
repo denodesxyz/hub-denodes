@@ -39,7 +39,7 @@ To incentivize the adoption of shielded transfers and privacy features, Namada o
 
 One of Namada's significant contributions is the concept of shared privacy. Through private bridges, Namada can connect diverse privacy chains, creating a more extensive multichain privacy set that enhances privacy guarantees for all users. Private bridges also improve the user experience by eliminating the need to unshield assets when moving between chains.
 
-![An image](/namada-project-overview-diagram.webp){data-zoomable}
+![An image](/namada-project-overview-diagram.webp)
 
 ## Backers & Team
 

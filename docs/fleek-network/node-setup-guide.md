@@ -35,9 +35,9 @@ curl https://get.fleek.network | bash
 
 Installation is as simple as possible. The installer will install all dependencies for you, compile binary files and create service files. During the installation process, select the "Natively" startup method, and answer Yes ("y") to all other questions.
 
-![An image](/fleek-node-setup-1.webp){data-zoomable}
+![An image](/fleek-node-setup-1.webp)
 
-![An image](/fleek-node-setup-2.webp){data-zoomable}
+![An image](/fleek-node-setup-2.webp)
 
 ```note
 After installation, the private keys will be located in the:
@@ -56,7 +56,7 @@ And make sure it's running:
 sudo systemctl start lightning
 ```
 
-![An image](/fleek-node-setup-3.webp){data-zoomable}
+![An image](/fleek-node-setup-3.webp)
 
 ## Staking tFLK
 Test tokens need to be staked for the node to work. The first thing to do is to add the `Fleek Network` to Metamask.
@@ -122,7 +122,7 @@ Run the following command:
 curl -sS https://get.fleek.network/healthcheck | bash
 ```
 
-![An image](/fleek-node-setup-7.webp){data-zoomable}
+![An image](/fleek-node-setup-7.webp)
 
 Another way is to run a quick health check by sending a GET request to /health endpoint of RPC on [port](https://docs.fleek.network/docs/node/requirements/#ports) 4230.
 
