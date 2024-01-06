@@ -32,14 +32,11 @@ features:
   - title: Open-Source 
     details: At the deNodes Hub, we embrace open-source principles, making it easy for blockchain enthusiasts to contribute to our projects.
     icon: 🌍
-    link: https://github.com/denodesxyz/denodes-hub
   - title: Education & Research 
     details: We curate and analyze blockchain projects, offering valuable insights to help educate and enhance your understanding of this new technology.
     icon: 📒
-    link: /welcome/denodes-team
   - title: Technical Guides 
     details: Our materials cover a wide range of new blockchain projects, helping you enhance your network participation and node operator skills.
     icon: 🛠️
-    link: /namada/node-setup-guide/
 
 ---

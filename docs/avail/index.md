@@ -1,6 +1,6 @@
-# Welcome to the deNodes Hub!
+# Avail
 
-Introduction to the deNodes Hub
+deNodes Hub: Avail
 
 ![An image](/avail-hero.svg)
 
