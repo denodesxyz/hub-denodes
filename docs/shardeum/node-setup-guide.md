@@ -13,6 +13,6 @@ We recommend the following minimum hardware requirements for running the Shardeu
 * OS: **Ubuntu Linux 20.04 (LTS)**
 
 ## Setting up a Shardeum Node
-:gear: Under maintenance
+:gear: Under maintenance!
 
 
