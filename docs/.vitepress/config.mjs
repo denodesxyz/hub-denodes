@@ -8,7 +8,17 @@ export default defineConfig({
     hostname: 'https://hub.denodes.xyz'
   },
   ignoreDeadLinks: true,
-
+  head: [
+    [ 'script',{ async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID'}],
+    [ 'script', {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'TAG_ID');`
+    ],
+    // Favicon
+    [ 'link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     search: {
       provider: 'local',
@@ -16,26 +26,6 @@ export default defineConfig({
         detailedView: true,
       },
     },
-    // Using Google Analytics
-    head: [
-      [
-        'script',
-        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID', }
-      ],
-      [
-        'script',
-        {},
-        `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'TAG_ID');`
-      ],
-      // Favicon
-      [
-        [ 'link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
-      ]
-    ],
-
     logo: '/Logo.svg',
 
     nav: [
