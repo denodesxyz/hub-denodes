@@ -20,7 +20,7 @@ Requesting the address to receive the test tokens
 pcli view address
 ```
 
-Send the address to the discord channel to receive the test tokens. Wait for the bot to reply in Discord and check the balance:
+Send the address to the discord [channel](https://discord.com/channels/824484045370818580/915710851917439060) to receive the test tokens. Wait for the bot to reply in Discord and check the balance:
 ```
 pcli view balance
 ```
