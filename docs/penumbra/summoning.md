@@ -7,7 +7,11 @@ tar -xf pcli-x86_64-unknown-linux-gnu.tar
 sudo mv pcli-x86_64-unknown-linux-gnu/pcli /usr/local/bin/
 
 pcli --version
+```
+Make sure that the version used is v0.71.0
 
+Reset the state to avoid conflict with the previous version:
+```
 pcli view reset
 ```
 
